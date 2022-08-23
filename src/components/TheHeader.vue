@@ -60,12 +60,12 @@
               class="
                 inline-block
                 no-underline
-                hover:text-gray-800 hover:text-underline
+                 hover:text-underline
                 py-2
                 px-4
               "
               href="#"
-              ><router-link to="/">ABOUT US </router-link></a
+              ><router-link to="/about">ABOUT US </router-link></a
             >
           </li>
           <li class="mr-3">
@@ -73,12 +73,12 @@
               class="
                 inline-block
                 no-underline
-                hover:text-gray-800 hover:text-underline
+                 hover:text-underline
                 py-2
                 px-4
               "
               href="#"
-              ><router-link to="/">FARM PRODUCTS </router-link></a
+              ><router-link to="/farmproducts">FARM PRODUCTS </router-link></a
             >
           </li>
           <li class="mr-3">
@@ -86,7 +86,7 @@
               class="
                 inline-block
                 no-underline
-                hover:text-gray-800 hover:text-underline
+                 hover:text-underline
                 py-2
                 px-4
               "
@@ -99,7 +99,7 @@
               class="
                 inline-block
                 no-underline
-                hover:text-gray-800 hover:text-underline
+                 hover:text-underline
                 py-2
                 px-4
               "
@@ -112,7 +112,7 @@
               class="
                 inline-block
                 no-underline
-                hover:text-gray-800 hover:text-underline
+                 hover:text-underline
                 py-2
                 px-4
               "
@@ -125,7 +125,7 @@
               class="
                 inline-block
                 no-underline
-                hover:text-gray-800 hover:text-underline
+                 hover:text-underline
                 py-2
                 px-4
               "
@@ -138,12 +138,12 @@
               class="
                 inline-block
                 no-underline
-                hover:text-gray-800 hover:text-underline
+                 hover:text-underline
                 py-2
                 px-4
               "
               href="#"
-              ><router-link to="/wishlistpage">
+              ><router-link to="/wishlist">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
@@ -166,12 +166,12 @@
               class="
                 inline-block
                 no-underline
-                hover:text-gray-800 hover:text-underline
+                 hover:text-underline
                 py-2
                 px-4
               "
               href="#"
-              ><router-link to="/cartpage">
+              ><router-link to="/cart">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
@@ -238,7 +238,7 @@ export default {
       return this.isSticky ? "bg-white shadow" : "";
     },
     navActionClassList() {
-      return this.isSticky ? "gradient text-white" : "bg-white text-gray-800";
+      return this.isSticky ? "gradient text-white" : "bg-white text-white";
     },
     navContentClassList() {
       let classList = this.isSticky ? "bg-white" : "bg-gray-100";
