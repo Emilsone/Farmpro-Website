@@ -4,8 +4,6 @@
     <HeroContent />
     <HowWeWork />
     <DeliveryProcess />
-    <!-- <ProductsContent /> -->
-    <DownloadApp />
     <ServicePage /> 
     <TheFooter />
   </main>
@@ -18,7 +16,6 @@ import TheHeader from "@/components/TheHeader.vue";
 import HeroContent from "@/components/HeroContent.vue";
 import HowWeWork from "@/components/HowWeWork.vue";
 import DeliveryProcess from "@/components/DeliveryProcess.vue";
-import DownloadApp from "@/components/DownloadApp.vue";
 import ServicePage from "@/components/ServicePage.vue";
 import TheFooter from "@/components/TheFooter.vue";
 
@@ -29,7 +26,6 @@ export default {
     HeroContent,
     HowWeWork,
     DeliveryProcess,
-    DownloadApp,
     ServicePage,
     TheFooter,
   },

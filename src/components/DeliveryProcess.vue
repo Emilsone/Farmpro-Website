@@ -2,9 +2,7 @@
   <section class="text-gray-600 body-font bg-section mt-24">
     <div class="container px-5 py-24 mx-auto">
       <div class="text-center mb-20">
-        <p
-          class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text font-bold"
-        >
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text font-bold">
           ~~ Delivery Process ~~
         </p>
         <h1 class="sm:text-3xl text-2xl font-bold title-font text-black mb-4">
@@ -15,14 +13,14 @@
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4">
           <div class="h-full text-center">
             <div
-<<<<<<< Updated upstream
+
               class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0"
             >
               <i
                 class="fa fa-home align-center flex justify-center"
                 aria-hidden="true"
               ></i>
-=======
+
               class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0">
               <svg class="w-12 h-12 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                 fill="none" viewBox="0 0 24 24">
@@ -30,29 +28,31 @@
                   d="m4 12 8-8 8 8M6 10.5V19a1 1 0 0 0 1 1h3v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h3a1 1 0 0 0 1-1v-8.5" />
               </svg>
 
->>>>>>> Stashed changes
+
+
+              class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0">
+              <i class="fa fa-home align-center flex justify-center" aria-hidden="true"></i>
+
             </div>
 
-            <h2
-              class="text-gray-900 font-medium title-font tracking-wider text-sm"
-            >
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
               01.
             </h2>
             <p class="leading-relaxed">Connect to nearest farm</p>
           </div>
         </div>
-        
+
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4">
           <div class="h-full text-center">
             <div
-<<<<<<< Updated upstream
+
               class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0"
             >
               <i
                 class="fa fa-leaf align-center flex justify-center"
                 aria-hidden="true"
               ></i>
-=======
+
               class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0">
               <svg class="w-12 h-12 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                 fill="currentColor" viewBox="0 0 24 24">
@@ -61,11 +61,14 @@
                   clip-rule="evenodd" />
               </svg>
 
->>>>>>> Stashed changes
+
+              class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0">
+              <template>
+                <font-awesome-icon icon="fa-solid fa-house" />
+              </template>
+
             </div>
-            <h2
-              class="text-gray-900 font-medium title-font tracking-wider text-sm"
-            >
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
               02.
             </h2>
             <p class="leading-relaxed">Place your order</p>
@@ -74,14 +77,14 @@
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4 md:mx-auto">
           <div class="h-full text-center">
             <div
-<<<<<<< Updated upstream
+
               class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0"
             >
               <i
                 class="fa fa-map align-center flex justify-center"
                 aria-hidden="true"
               ></i>
-=======
+
               class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0">
               <svg class="w-12 h-12" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                 fill="currentColor" viewBox="0 0 24 24">
@@ -89,12 +92,13 @@
                   d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z"
                   clip-rule="evenodd" />
               </svg>
->>>>>>> Stashed changes
+
+              class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0">
+              <i class="fa fa-map align-center flex justify-center" aria-hidden="true"></i>
+
             </div>
 
-            <h2
-              class="text-gray-900 font-medium title-font tracking-wider text-sm"
-            >
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
               03.
             </h2>
             <p class="leading-relaxed">Choose location</p>
@@ -103,14 +107,14 @@
         <div class="lg:w-1/4 w-5/6 lg:mb-0 p-4 md:mx-auto">
           <div class="h-full text-center">
             <div
-<<<<<<< Updated upstream
+
               class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0"
             >
               <i
                 class="fa fa-truck align-center flex justify-center"
                 aria-hidden="true"
               ></i>
-=======
+
               class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0">
               <svg class="w-12 h-12" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                 fill="none" viewBox="0 0 24 24">
@@ -118,12 +122,12 @@
                   d="M13 7h6l2 4m-8-4v8m0-8V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v9h2m8 0H9m4 0h2m4 0h2v-4m0 0h-5m3.5 5.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm-10 0a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z" />
               </svg>
 
->>>>>>> Stashed changes
+              class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-white icon mb-5 flex-shrink-0">
+              <i class="fa fa-truck align-center flex justify-center" aria-hidden="true"></i>
+
             </div>
 
-            <h2
-              class="text-gray-900 font-medium title-font tracking-wider text-sm"
-            >
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
               04.
             </h2>
             <p class="leading-relaxed">Delivery time</p>
@@ -145,10 +149,12 @@ export default {
 .bg-section {
   background-color: #f4f3f1;
 }
+
 .icon {
   color: #3d9421;
   font-size: 3rem;
 }
+
 .icon-bg:hover {
   background-color: #3d9421;
   font-size: 2rem;
@@ -156,6 +162,7 @@ export default {
   border: 10px solid #f4f3f1;
   transition: all 0.7s;
 }
+
 .btn {
   background-color: #3d9421;
 }
