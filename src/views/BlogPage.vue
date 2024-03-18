@@ -24,7 +24,7 @@
                   from various regions provides access to diverse capital and partnerships.
                 </p>
                 <div class="flex items-center flex-wrap">
-                  <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <a class="link_style inline-flex items-center md:mb-2 lg:mb-0">Read More
                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
                       stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14"></path>
@@ -66,7 +66,7 @@
                   insects, rodents, and other pests, ensuring a healthy and thriving crop environment.
                 </p>
                 <div class="flex items-center flex-wrap">
-                  <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <a class="link_style inline-flex items-center md:mb-2 lg:mb-0">Read More
                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
                       stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14"></path>
@@ -109,7 +109,7 @@
                   your farm products to new heights.
                 </p>
                 <div class="flex items-center flex-wrap">
-                  <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <a class="link_style inline-flex items-center md:mb-2 lg:mb-0">Read More
                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
                       stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14"></path>
@@ -154,7 +154,7 @@
                   international buyers, taking your farm business to the next level.
                 </p>
                 <div class="flex items-center flex-wrap">
-                  <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <a class="link_style inline-flex items-center md:mb-2 lg:mb-0">Read More
                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
                       stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14"></path>
@@ -197,7 +197,7 @@
                   flourishing crops, ensuring a successful and bountiful harvest.
                 </p>
                 <div class="flex items-center flex-wrap">
-                  <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <a class="link_style inline-flex items-center md:mb-2 lg:mb-0">Read More
                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
                       stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14"></path>
@@ -240,7 +240,7 @@
                   our goals necessitate unwavering effort.
                 </p>
                 <div class="flex items-center flex-wrap">
-                  <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <a class="link_style inline-flex items-center md:mb-2 lg:mb-0">Read More
                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
                       stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14"></path>
@@ -288,7 +288,11 @@ export default {
 .blog-bg {
   background-image: url("../assets/blog-image.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 95vh;
   background-color: transparent;
+}
+
+.link_style{
+  color: #3d9421;
 }
 </style>
