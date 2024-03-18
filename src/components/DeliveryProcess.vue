@@ -23,10 +23,10 @@
               </svg>
             </div>
 
-            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
+            <h2 class="text-grey-900 font-extrabold  title-font tracking-wider text-lg">
               01.
             </h2>
-            <p class="leading-relaxed">Connect to nearest farm</p>
+            <p class="leading-relaxed text-lg font-bold">Connect to nearest farm</p>
           </div>
         </div>
 
@@ -41,10 +41,10 @@
                   clip-rule="evenodd" />
               </svg>
             </div>
-            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
+            <h2 class="text-grey-900 font-extrabold  title-font tracking-wider text-lg">
               02.
             </h2>
-            <p class="leading-relaxed">Place your order</p>
+            <p class="leading-relaxed text-lg font-bold">Place your order</p>
           </div>
         </div>
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4 md:mx-auto">
@@ -58,10 +58,10 @@
                   clip-rule="evenodd" />
               </svg>
             </div>
-            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
+            <h2 class="text-grey-900 font-extrabold  title-font tracking-wider text-lg">
               03.
             </h2>
-            <p class="leading-relaxed">Choose location</p>
+            <p class="leading-relaxed text-lg font-bold">Choose location</p>
           </div>
         </div>
         <div class="lg:w-1/4 w-5/6 lg:mb-0 p-4 md:mx-auto">
@@ -75,10 +75,10 @@
                   d="M13 7h6l2 4m-8-4v8m0-8V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v9h2m8 0H9m4 0h2m4 0h2v-4m0 0h-5m3.5 5.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm-10 0a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z" />
               </svg>
             </div>
-            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
+            <h2 class="text-grey-900 font-extrabold  title-font tracking-wider text-lg">
               04.
             </h2>
-            <p class="leading-relaxed">Delivery time</p>
+            <p class="leading-relaxed text-lg font-bold">Delivery time</p>
           </div>
         </div>
       </div>
