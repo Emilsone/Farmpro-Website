@@ -7,7 +7,7 @@
         >
           ~~ Our Services ~~
         </p>
-        <h1 class="sm:text-3xl text-2xl font-bold title-font text-black mb-4">
+        <h1 class="sm:text-4xl text-2xl font-bold title-font text-black mb-4">
           WELCOME TO FARMPRO
         </h1>
         <div class="flex mt-6 justify-center">

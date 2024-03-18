@@ -12,7 +12,7 @@
           ">
           ~~~~~ Services ~~~~~
         </h3>
-        <h1 class="sm:text-3xl text-2xl font-bold title-font text-gray-900">
+        <h1 class="sm:text-4xl text-2xl font-bold title-font text-gray-900">
           Our Services
         </h1>
       </div>
