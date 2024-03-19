@@ -14,10 +14,10 @@
               <a href="#" class="no-underline">Farm Products </a>
             </li>
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
-              <a href="#" class="no-underline">Our Farmers </a>
+              <a href="#" class="no-underline">Blog</a>
             </li>
             <li class="mt-2 block mr-2 md:block md:mr-0 py-2">
-              <a href="#" class="no-underline">Blog <span class="text-xs px-2 blog-text">Coming soon</span></a>
+              <a href="#" class="no-underline">Careers<span class="text-xs px-1 blog-text">Coming soon</span></a>
             </li>
           </ul>
         </div>
