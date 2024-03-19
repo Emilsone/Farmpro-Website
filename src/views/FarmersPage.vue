@@ -1,7 +1,7 @@
 <template>
   <main>
     <TheHeader />
-    <section class="bg-section">
+    <section class="hero_section">
       <div class="pt-24">
         <div
           class="
@@ -28,7 +28,7 @@
               lg:pl-4
             "
           >
-            <h1 class="my-4 text-4xl font-bold mb-4 leading-tight md:mb-8">
+            <h1 class="my-4 text-4xl font-bold mb-4  md:mb-8">
               Meet Our Innovative Farmers with a Wide Range of Experience
             </h1>
             <p class="leading-normal text-lg mb-4 md:mb-8">
@@ -95,7 +95,7 @@
               </p>
               <span class="inline-block h-1 w-10 rounded bg mt-6 mb-4"></span>
 
-              <p class="text-gray-500">Vegetable Team</p>
+              <p class="text-gray-500">Vegetable Farmer</p>
             </div>
           </div>
           <div class="lg:w-1/3 w-5/6 lg:mb-0 mb-6 p-4 md:mx-auto">
@@ -129,7 +129,7 @@
               </p>
               <span class="inline-block h-1 w-10 rounded bg mt-6 mb-4"></span>
 
-              <p class="text-gray-500">Fruit Team</p>
+              <p class="text-gray-500">Fruit Farmer</p>
             </div>
           </div>
           <div class="lg:w-1/3 w-5/6 lg:mb-0 p-4 md:mx-auto">
@@ -163,7 +163,7 @@
               </p>
               <span class="inline-block h-1 w-10 rounded bg mt-6 mb-4"></span>
 
-              <p class="text-gray-500">Vegetable Team</p>
+              <p class="text-gray-500">Vegetable Farmer</p>
             </div>
           </div>
         </div>
@@ -199,7 +199,7 @@
               </p>
               <span class="inline-block h-1 w-10 rounded bg mt-6 mb-4"></span>
 
-              <p class="text-gray-500">Juice Team</p>
+              <p class="text-gray-500">Harvester operator</p>
             </div>
           </div>
           <div class="lg:w-1/3 w-5/6 lg:mb-0 mb-6 p-4 md:mx-auto">
@@ -233,7 +233,7 @@
               </p>
               <span class="inline-block h-1 w-10 rounded bg mt-6 mb-4"></span>
 
-              <p class="text-gray-500">Juice Team</p>
+              <p class="text-gray-500">Marketing Director</p>
             </div>
           </div>
           <div class="lg:w-1/3 w-5/6 lg:mb-0 p-4 md:mx-auto">
@@ -267,7 +267,7 @@
               </p>
               <span class="inline-block h-1 w-10 rounded bg mt-6 mb-4"></span>
 
-              <p class="text-gray-500">DryProducts Team</p>
+              <p class="text-gray-500">Crop Specialist</p>
             </div>
           </div>
         </div>
@@ -295,5 +295,8 @@ export default {
 .btn-invest {
   background: linear-gradient(90deg, #419946 44.51%, #0ced0c 100%);
   border-radius: 8px;
+}
+.hero_section{
+background-color: #FAFAFA;
 }
 </style>
