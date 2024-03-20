@@ -4,7 +4,7 @@
     <HeroContent />
     <HowWeWork />
     <DeliveryProcess />
-    <MobileApp />
+    <WhyChooseUs />
     <ServicePage /> 
     <TheFooter />
   </main>
@@ -17,7 +17,7 @@ import TheHeader from "@/components/TheHeader.vue";
 import HeroContent from "@/components/HeroContent.vue";
 import HowWeWork from "@/components/HowWeWork.vue";
 import DeliveryProcess from "@/components/DeliveryProcess.vue";
-import MobileApp from "@/components/MobileApp.vue";
+import WhyChooseUs from "@/components/WhyChooseUs.vue";
 import ServicePage from "@/components/ServicePage.vue";
 import TheFooter from "@/components/TheFooter.vue";
 
@@ -28,7 +28,7 @@ export default {
     HeroContent,
     HowWeWork,
     DeliveryProcess,
-    MobileApp,
+    WhyChooseUs,
     ServicePage,
     TheFooter,
   },
