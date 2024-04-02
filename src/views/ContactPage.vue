@@ -49,7 +49,7 @@
             >
               <i class="fa fa-map text-lg" aria-hidden="true"></i> ADDRESS
             </h2>
-            <p class="mt-1">No 185 Abak Road Uyo Akwa ibom state</p>
+            <p class="mt-1">No 60 Uche close Port-Harcourt, Rumukwurushi</p>
           </div>
           <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
             <h2
@@ -203,8 +203,7 @@
           >
             Opening Hours
           </h2>
-          <p class="mt-1">Mon - Fri 9am - 5pm</p>
-          <p class="mt-1">Sat - Sun 11am - 4pm</p>
+          <p class="mt-2"> Mon - Sat 10am - 5pm</p>
         </div>
       </div>
     </div>

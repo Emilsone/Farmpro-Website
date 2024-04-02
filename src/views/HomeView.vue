@@ -5,7 +5,7 @@
     <HowWeWork />
     <WhyChooseUs />
     <DeliveryProcess />
-    <ServicePage /> 
+    <!-- <ServicePage /> -->
     <TheFooter />
   </main>
 </template>
@@ -18,7 +18,7 @@ import HeroContent from "@/components/HeroContent.vue";
 import HowWeWork from "@/components/HowWeWork.vue";
 import WhyChooseUs from "@/components/WhyChooseUs.vue";
 import DeliveryProcess from "@/components/DeliveryProcess.vue";
-import ServicePage from "@/components/ServicePage.vue";
+// import ServicePage from "@/components/ServicePage.vue";
 import TheFooter from "@/components/TheFooter.vue";
 
 export default {
@@ -29,7 +29,7 @@ export default {
     HowWeWork,
     WhyChooseUs,
     DeliveryProcess,
-    ServicePage,
+    // ServicePage,
     TheFooter,
   },
 };
