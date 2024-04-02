@@ -97,7 +97,7 @@
           Get In Touch
         </h2>
         <p class="leading-relaxed mb-5 text-gray-600">
-          Fill up the form and our team will get back to you within 24 hours
+          Fill up the form and our team will get back to you within 1 hour
         </p>
         <div class="relative mb-4">
           <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
