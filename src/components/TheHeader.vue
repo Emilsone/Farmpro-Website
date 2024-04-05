@@ -131,7 +131,7 @@
                 hover:text-underline
                 py-3
                 md:mx-6
-              " href="#"><router-link to="/signin"> Sign In </router-link></a>
+              " href="#"><router-link to="/signin"> Sign Up </router-link></a>
           </li>
         </ul>
       </div>

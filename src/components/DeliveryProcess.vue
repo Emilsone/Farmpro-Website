@@ -93,7 +93,7 @@ export default {
   name: "DeliveryProcess",
 };
 </script>
-<style scoped>
+<style >
 .bg-section {
   background-color: #f4f3f1;
 }
