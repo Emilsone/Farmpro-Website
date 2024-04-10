@@ -1,7 +1,7 @@
 <template>
     <section class="text-black advantage_section py-4">
         <div class="flex flex-col md:flex-row justify-between items-center">
-            <div class="w-full md:w-1/2 p-6">
+                <div class="w-full md:w-1/2 p-6">
                 <h1
                     class="title-font mb-4 text-3xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-4xl">
                     Why Choose Us ?</h1>
@@ -41,10 +41,10 @@
                     </li>
                 </ul>
                 <div class="flex py-6 ">
-                    <button
-                        class="inline-flex text-white order_now_btn border-0 py-4 px-4 md:px-8 focus:outline-none text-lg rounded-lg ">Shop Now</button>
-                    <button
-                        class="md:ml-4 ml-3 inline-flex text-gray-700 learn_more_btn bg-white border-0 py-4 px-4 md:px-8 focus:outline-none text-lg rounded-lg">Learn More</button>
+                    <a href="#"
+                        class="inline-flex text-white order_now_btn border-0 py-4 px-4 md:px-8 focus:outline-none text-lg rounded-lg ">Shop Now</a>
+                    <a href="#"
+                        class="md:ml-4 ml-3 inline-flex text-gray-700 learn_more_btn bg-white border-0 py-4 px-4 md:px-8 focus:outline-none text-lg rounded-lg">Learn More</a>
                 </div>
             </div>
             <div class="w-full md:w-1/2">

@@ -83,7 +83,9 @@
         </div>
       </div>
       <div class="flex justify-center align-center lg:mt-12">
-        <a href="#" class="btn p-4 px-6 text-white ">Shop Now</a>
+        <a href=""
+          class="inline-flex text-white btn border-0 py-4 px-4 md:px-8 focus:outline-none text-lg rounded-lg ">Shop
+          Now</a>
       </div>
     </div>
   </section>
@@ -111,7 +113,8 @@ export default {
   border: 15px solid #edeeef;
   transition: all 1.3s;
 }
-.icon-bg{
+
+.icon-bg {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.1), 0 16px 32px rgba(0, 0, 0, 0.05);
 }
 

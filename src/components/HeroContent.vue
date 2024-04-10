@@ -35,7 +35,8 @@
               Get the natural taste from our farm right to your doorstep
             </p>
 
-            <a href="#" class="btn p-4 px-6 text-white">Shop Now</a>
+            <a href="#"
+                        class="inline-flex btn text-white order_now_btn border-0 py-4 px-4 md:px-8 focus:outline-none text-lg rounded-lg ">Shop Now</a>
           </div>
           <!--Right Col-->
         </div>
