@@ -95,7 +95,8 @@ export default {
 </script>
 <style scoped>
 .bg-section {
-  background-color: #f4f3f1;
+  /* background-color: #f4f3f1; */
+  background-color: #FAFBFB;
 }
 
 .icon {
@@ -109,6 +110,9 @@ export default {
   color: #ffff;
   border: 15px solid #edeeef;
   transition: all 1.3s;
+}
+.icon-bg{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.1), 0 16px 32px rgba(0, 0, 0, 0.05);
 }
 
 .btn {

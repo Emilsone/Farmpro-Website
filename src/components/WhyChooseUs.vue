@@ -1,5 +1,5 @@
 <template>
-    <section class="text-black advantage_section">
+    <section class="text-black advantage_section py-4">
         <div class="flex flex-col md:flex-row justify-between items-center">
             <div class="w-full md:w-1/2 p-6">
                 <h1
@@ -42,9 +42,9 @@
                 </ul>
                 <div class="flex py-6 ">
                     <button
-                        class="inline-flex text-white order_now_btn border-0 py-4 px-4 md:px-8 focus:outline-none text-lg ">Order Now</button>
+                        class="inline-flex text-white order_now_btn border-0 py-4 px-4 md:px-8 focus:outline-none text-lg rounded-lg ">Shop Now</button>
                     <button
-                        class="md:ml-4 ml-3 inline-flex text-gray-700 learn_more_btn bg-white border-0 py-4 px-4 md:px-8 focus:outline-none text-lg">Learn More</button>
+                        class="md:ml-4 ml-3 inline-flex text-gray-700 learn_more_btn bg-white border-0 py-4 px-4 md:px-8 focus:outline-none text-lg rounded-lg">Learn More</button>
                 </div>
             </div>
             <div class="w-full md:w-1/2">
