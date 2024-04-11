@@ -32,7 +32,7 @@
               WELCOME TO <span class="r">FARMPRO</span>
             </h1>
             <p class="leading-normal text-lg mb-8 pt">
-              Get the natural taste from our farm right to your doorstep
+              Get the natural taste of farm produce from our farm right to your doorstep
             </p>
 
             <a href="#"
