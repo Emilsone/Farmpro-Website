@@ -96,10 +96,6 @@ export default {
 };
 </script>
 <style scoped>
-.bg-section {
-  /* background-color: #f4f3f1; */
-  background-color: #FAFBFB;
-}
 
 .icon {
   color: #3d9421;
