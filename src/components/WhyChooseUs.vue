@@ -139,7 +139,6 @@
 
 .advantage_section {
     background-color: #FAFBFB;
-    height: 100vh;
 }
 .check_icon{
   color: #3d9421;  
