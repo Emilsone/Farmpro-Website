@@ -132,8 +132,8 @@ export default {
 </script>
 <style scoped>
 .footer___bg {
-  background-color: black;
-  color: white;
+  background-color: #141313;
+  color: rgb(210, 206, 206);
 }
 
 .blog-text {
