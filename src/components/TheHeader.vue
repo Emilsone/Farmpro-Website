@@ -26,7 +26,7 @@
       <div :class="navContentClassList" class="
           w-full
           flex-grow
-          lg:flex lg:items-center lg:w-auto lg:block
+          lg:flex lg:items-center lg:w-auto 
           mt-2
           lg:mt-0
           text-black
@@ -69,15 +69,6 @@
                  hover:text-underline
                 py-2
                 px-4
-              " href="#"><router-link to="/faq">FAQ <i class="icon-map"></i></router-link></a>
-          </li>
-          <li class="mr-3">
-            <a class="
-                inline-block
-                no-underline
-                 hover:text-underline
-                py-2
-                px-4
               " href="#"><router-link to="/blog">BLOG</router-link></a>
           </li>
           <li class="mr-3">
@@ -88,20 +79,6 @@
                 py-2
                 px-4
               " href="#"><router-link to="/contact">CONTACT US</router-link></a>
-          </li>
-          <li class="mr-3">
-            <a class="
-                inline-block
-                no-underline
-                 hover:text-underline
-                py-2
-                px-4
-              " href="#"><router-link to="/wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                  stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                </svg></router-link></a>
           </li>
         </ul>
         <ul class="list-reset lg:flex items-center">
