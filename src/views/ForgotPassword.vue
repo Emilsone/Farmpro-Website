@@ -29,7 +29,7 @@
             </form>
             <!-- Sign up  Link -->
             <div class="mt-6 text-center">
-                <a href="#" class="font-bold">Remeber your password?</a> <router-link
+                <a href="#" class="font-bold">Remember your password?</a> <router-link
                     class="underline text-blue-500" to="/signup">SignIn</router-link>
             </div>
         </div>
