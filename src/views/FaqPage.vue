@@ -7,6 +7,8 @@
       </h1>
     </section>
 
+ 
+
     <TheFooter />
   </main>
 </template>

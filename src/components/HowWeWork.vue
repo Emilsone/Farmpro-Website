@@ -1,71 +1,76 @@
 <template>
-  <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="text-center mb-20">
-        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text font-bold">
-          ~~ Our Services ~~
-        </p>
-        <h1 class="sm:text-4xl text-2xl font-bold title-font text-black mb-4">
-          WELCOME TO FARMPRO
+  <section class="relative bg-white py-16">
+    <div class="container mx-auto flex flex-col md:flex-row items-center px-6 md:px-16">
+
+      <!-- Left Image with Overlay Effects -->
+      <div class="md:w-1/2 relative">
+        <!-- Background Brush Effect -->
+        <div class="absolute inset-0 bg-green-500 opacity-20 rounded-lg z-0"></div>
+
+        <!-- Main Image -->
+        <img src="../assets/content-image-4.png" alt="Organic Farmer"
+          class="w-full relative z-10 rounded-lg shadow-lg" />
+
+        <!-- Small Overlay Image -->
+        <div class="absolute bottom-0 left-0 transform -translate-x-8 translate-y-8 z-20">
+          <img src="../assets/who.jpg" alt="Farmer" class="w-32 h-32 rounded-lg shadow-lg border-4 border-white" />
+        </div>
+
+        <!-- Decorative Leaf -->
+        <img src="../assets/leaf.png" alt="Leaf"
+          class="absolute top-0 right-0 w-20 h-20 transform -translate-y-10 translate-x-10 z-20" />
+      </div>
+
+      <!-- Right Side - Text Content -->
+      <div class="md:w-1/2 md:pl-12 mt-10 md:mt-0">
+        <h1 class="text-xl font-bold text-gray-500">What We Do</h1>
+        <h1 class="text-4xl font-bold text-green-900 mt-2">
+          Provider of fresh, organic, and healthy food.
         </h1>
-        <div class="flex mt-6 justify-center">
-          <div class="w-16 h-1 rounded-full bg inline-flex"></div>
+
+        <!-- Feature Badges -->
+        <div class="flex space-x-4 mt-4">
+          <div class="bg-white shadow-md px-4 py-2 rounded-lg flex items-center space-x-2">
+            <span class="text-yellow-500 text-lg">✔</span>
+            <p class="text-green-900 font-semibold">Natural and organic products</p>
+          </div>
+          <div class="bg-white shadow-md px-4 py-2 rounded-lg flex items-center space-x-2">
+            <span class="text-yellow-500 text-lg">✔</span>
+            <p class="text-green-900 font-semibold">Fresh food every day</p>
+          </div>
         </div>
+
+        <p class="text-gray-600 mt-4">
+          We care about healthy and natural food. That’s why we focus on growing fresh, high-quality organic farm
+          produce that is good for you and the environment. 🌱🥦
+        </p>
+
+        <p class="text-gray-600 mt-2">
+          We help people enjoy fresh, natural food by connecting them with real, seasonal farm produce. Our goal is to bring the community closer to nature and help everyone appreciate where their food comes from. 🚜🌿
+        </p>
+
+        <div class="flex items-center mt-6">
+          <img src="../assets/create.png" alt="Guarantee" class="w-12 h-12">
+          <p class="ml-4 text-lg font-semibold text-green-700">Guaranteed Best Quality</p>
+        </div>
+
+        <!-- Call to Action Button -->
+        <button
+          class="mt-6 bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md transition">
+          Discover more
+        </button>
       </div>
-      <span class="text-sm font-bold mb-4 text-justify"></span>
-      <h1 class="mb-12 text-center"></h1>
-      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div class="h-64 overflow-hidden">
-            <img alt="content" class="object-cover object-center h-full w-full" src="../assets/who.jpg" />
-          </div>
-          <h2 class="text-xl font-bold text-center title-font text-gray-900 mt-5">
-            Who We Are?
-          </h2>
-          <p class="text-base leading-relaxed mt-2 text-center">
-            Driven by a desire for healthy and sustainable food options, we created a specialty focused on cultivating high-quality, and nourishing organic farm
-            produce.
-          </p>
-        </div>
-        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div class="h-64 overflow-hidden">
-            <img alt="content" class="object-cover object-center h-full w-full" src="../assets/work.jpg" />
-          </div>
-          <h2 class="text-xl font-bold text-center title-font text-gray-900 mt-5">
-            How We Work
-          </h2>
-          <p class="text-base leading-relaxed mt-2 text-center">
-            We see ourselves as facilitators, inspiring our community to rediscover the joy of real, seasonal
-            produce and deepen their relationship with the land
-          </p>
-        </div>
-        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div class="h-64 overflow-hidden">
-            <img alt="content" class="object-cover object-center h-full w-full" src="../assets/grow.jpg" />
-          </div>
-          <h2 class="text-xl font-bold text-center title-font text-gray-900 mt-5">
-            Our Products
-          </h2>
-          <p class="text-base leading-relaxed mt-2 text-center">
-            Exceptional flavor is our guiding principle. We carefully select and plant unique crop varieties
-           renowed for their superior taste.
-          </p>
-        </div>
-      </div>
+
     </div>
   </section>
 </template>
+
 <script>
 export default {
-  name: "HowWeWork",
+  name: "OrganicFoodHero",
 };
 </script>
-<style>
-.text {
-  color: #3d9421;
-}
 
-.bg {
-  background-color: #3d9421;
-}
+<style scoped>
+/* Custom styles (if necessary) */
 </style>

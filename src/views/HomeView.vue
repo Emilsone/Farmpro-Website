@@ -2,6 +2,8 @@
   <main class="text-white hero-section">
     <TheHeader />
     <HeroContent />
+    <ProductCategory />
+    <ProdItems />
     <HowWeWork />
     <WhyChooseUs />
     <DeliveryProcess />
@@ -15,6 +17,8 @@
 
 import TheHeader from "@/components/TheHeader.vue";
 import HeroContent from "@/components/HeroContent.vue";
+import ProductCategory from "@/components/ProductCategory.vue";
+import ProdItems from "@/components/ProdItems.vue";
 import HowWeWork from "@/components/HowWeWork.vue";
 import WhyChooseUs from "@/components/WhyChooseUs.vue";
 import DeliveryProcess from "@/components/DeliveryProcess.vue";
@@ -26,6 +30,8 @@ export default {
   components: {
     TheHeader,
     HeroContent,
+    ProductCategory,
+    ProdItems,
     HowWeWork,
     WhyChooseUs,
     DeliveryProcess,

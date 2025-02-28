@@ -137,9 +137,7 @@
     /* Green border color */
 }
 
-.advantage_section {
-    background-color: #FAFBFB;
-}
+
 .check_icon{
   color: #3d9421;  
 }
