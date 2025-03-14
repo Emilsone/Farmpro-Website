@@ -46,7 +46,8 @@
         </p>
 
         <p class="text-gray-600 mt-2">
-          We help people enjoy fresh, natural food by connecting them with real, seasonal farm produce. Our goal is to bring the community closer to nature and help everyone appreciate where their food comes from. 🚜🌿
+          We help people enjoy fresh, natural food by connecting them with real, seasonal farm produce. Our goal is to
+          bring the community closer to nature and help everyone appreciate where their food comes from. 🚜🌿
         </p>
 
         <div class="flex items-center mt-6">
@@ -56,11 +57,15 @@
 
         <!-- Call to Action Button -->
         <button
-          class="mt-6 bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md transition">
-          Discover more
+          class="mt-6 bg-transparent border-yellow-600 hover:bg-yellow-600 text-white px-6 py-3 rounded-md font-semibold shadow-md transition inline-block">
+          <span class="inline-block mr-2">Discover More About How we Work</span> <span><svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class=" w-4 h-4 inline-block">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </span>
         </button>
       </div>
-
     </div>
   </section>
 </template>

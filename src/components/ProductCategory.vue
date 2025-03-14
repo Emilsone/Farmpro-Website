@@ -62,8 +62,6 @@
   </script>
   
   <style scoped>
-  .bg-section {
-    /* background: #F5F7F9; */
-  }
+
   </style>
   
