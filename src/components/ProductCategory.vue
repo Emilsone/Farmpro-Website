@@ -15,7 +15,7 @@
           <div 
             v-for="(item, index) in categories" 
             :key="index" 
-            :class="['border-2 px-6 py-8 rounded-lg flex flex-col items-center h-full transition-all duration-300',
+            :class="['border-0 borde px-6 py-8 rounded-lg flex flex-col items-center h-full transition-all duration-300',
             item.bg, item.border, { 'shadow-lg scale-105': item.isActive }]"
             @click="selectCard(index)"
           >
@@ -48,11 +48,11 @@
   import { ref } from 'vue';
   
   const categories = ref([
-    { name: "Vegetable", count: 25, icon: "🥦", textColor: "text-green-600", bgLight: "bg-green-100", border: "border-green-300", bgDot: "bg-green-300", bg: "hover:bg-green-500 hover:text-white", isActive: false },
-    { name: "Meat", count: 55, icon: "🍗", textColor: "text-yellow-600", bgLight: "bg-yellow-100", border: "border-yellow-300", bgDot: "bg-yellow-300", bg: "hover:bg-yellow-500 hover:text-white", isActive: false },
-    { name: "Fresh Fruits", count: 30, icon: "🍎", textColor: "text-pink-600", bgLight: "bg-pink-100", border: "border-pink-300", bgDot: "bg-pink-300", bg: "hover:bg-pink-500 hover:text-white", isActive: false },
-    { name: "Grains", count: 14, icon: "🌾", textColor: "text-blue-600", bgLight: "bg-blue-100", border: "border-blue-300", bgDot: "bg-blue-300", bg: "hover:bg-blue-500 hover:text-white", isActive: false },
-    { name: "Coffee & Drinks", count: 15, icon: "☕", textColor: "text-red-600", bgLight: "bg-red-100", border: "border-red-300", bgDot: "bg-red-300", bg: "hover:bg-red-500 hover:text-white", isActive: false },
+    { name: "Vegetable", count: 25, icon: "🥦", textColor: "text-green-600", bgLight: "bg-green-100", border: "border-green-300", bgDot: "bg-green-300",  isActive: false },
+    { name: "Meat", count: 55, icon: "🍗", textColor: "text-yellow-600", bgLight: "bg-yellow-100", border: "border-yellow-300", bgDot: "bg-yellow-300", isActive: false },
+    { name: "Fresh Fruits", count: 30, icon: "🍎", textColor: "text-pink-600", bgLight: "bg-pink-100", border: "border-pink-300", bgDot: "bg-pink-300",  isActive: false },
+    { name: "Grains", count: 14, icon: "🌾", textColor: "text-blue-600", bgLight: "bg-blue-100", border: "border-blue-300", bgDot: "bg-blue-300",  isActive: false },
+    { name: "Coffee & Drinks", count: 15, icon: "☕", textColor: "text-red-600", bgLight: "bg-red-100", border: "border-red-300", bgDot: "bg-red-300",  isActive: false },
     { name: "Milk & Diary", count: 18, icon: "🧀", textColor: "text-yellow-500", bgLight: "bg-yellow-500", border: "border-yellow-300", bgDot: "bg-yellow-400",  isActive: false },
   ]);
   
