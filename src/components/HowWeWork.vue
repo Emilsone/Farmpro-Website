@@ -29,42 +29,48 @@
         </h1>
 
         <!-- Feature Badges -->
-        <div class="flex space-x-4 mt-4">
+        <div class="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 mt-4">
+
           <div class="bg-white shadow-md px-4 py-2 rounded-lg flex items-center space-x-2">
             <span class="text-yellow-500 text-lg">✔</span>
             <p class="text-green-900 font-semibold">Natural and organic products</p>
           </div>
+
           <div class="bg-white shadow-md px-4 py-2 rounded-lg flex items-center space-x-2">
             <span class="text-yellow-500 text-lg">✔</span>
             <p class="text-green-900 font-semibold">Fresh food every day</p>
           </div>
+
         </div>
 
-        <p class="text-gray-600 mt-4">
+        <p class="text-gray-600 mt-2 py-4 ">
           We care about healthy and natural food. That’s why we focus on growing fresh, high-quality organic farm
           produce that is good for you and the environment. 🌱🥦
         </p>
 
-        <p class="text-gray-600 mt-2">
+        <p class="text-gray-600 mt-2 py-2">
           We help people enjoy fresh, natural food by connecting them with real, seasonal farm produce. Our goal is to
           bring the community closer to nature and help everyone appreciate where their food comes from. 🚜🌿
         </p>
 
-        <div class="flex items-center mt-6">
+        <div class="flex items-center mt-4">
           <img src="../assets/create.png" alt="Guarantee" class="w-12 h-12">
           <p class="ml-4 text-lg font-semibold text-green-700">Guaranteed Best Quality</p>
         </div>
 
         <!-- Call to Action Button -->
-        <button
-          class="mt-6 bg-transparent border-yellow-600 hover:bg-yellow-600 text-white px-6 py-3 rounded-md font-semibold shadow-md transition inline-block">
-          <span class="inline-block mr-2">Discover More About How we Work</span> <span><svg
-              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-              stroke="currentColor" class=" w-4 h-4 inline-block">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-            </svg>
-          </span>
+        <button class="mt-12 bg-yellow-600 text-white px-4 py-3 rounded-md font-semibold shadow-md transition
+         inline-flex items-center gap-2 whitespace-nowrap">
+
+          <span>Discover More About How we Work</span>
+
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-4 h-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+
         </button>
+
       </div>
     </div>
   </section>
