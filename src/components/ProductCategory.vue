@@ -25,8 +25,8 @@
             </div>
 
             <!-- Floating Dots -->
-            <div class="absolute w-2 h-2 rounded-full top-1 left-1" :class="item.bgDot"></div>
-            <div class="absolute w-2 h-2 rounded-full bottom-1 right-1" :class="item.bgDot"></div>
+            <div class="absolute w-3 h-3 rounded-full top-1 left-1" :class="item.bgDot"></div>
+            <div class="absolute w-3 h-3 rounded-full bottom-1 right-1" :class="item.bgDot"></div>
           </div>
 
           <h2 class="title-font font-medium text-lg" :class="item.textColor">{{ item.name }}</h2>

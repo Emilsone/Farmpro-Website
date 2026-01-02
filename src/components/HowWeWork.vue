@@ -18,13 +18,13 @@
 
         <!-- Decorative Leaf -->
         <img src="../assets/leaf.png" alt="Leaf"
-          class="absolute top-0 right-0 w-20 h-20 transform -translate-y-10 translate-x-10 z-20" />
+          class="absolute top-0 right-0 w-20 h-19 transform -translate-y-10 translate-x-10 z-20" />
       </div>
 
       <!-- Right Side - Text Content -->
       <div class="md:w-1/2 md:pl-12 mt-10 md:mt-0">
         <h1 class="text-xl font-bold text-gray-500">What We Do</h1>
-        <h1 class="text-4xl font-bold text-green-900 mt-2">
+        <h1 class="text-4xl font-bold text-green-900 mt-2 py-2">
           Provider of fresh, organic, and healthy food.
         </h1>
 
@@ -45,24 +45,24 @@
 
         <p class="text-gray-600 mt-2 py-4 ">
           We care about healthy and natural food. That’s why we focus on growing fresh, high-quality organic farm
-          produce that is good for you and the environment. 🌱🥦
+          produce that is good for you and the environment. 🌱 🥦
         </p>
 
         <p class="text-gray-600 mt-2 py-2">
           We help people enjoy fresh, natural food by connecting them with real, seasonal farm produce. Our goal is to
-          bring the community closer to nature and help everyone appreciate where their food comes from. 🚜🌿
+          bring the community closer to nature and help everyone appreciate where their food comes from. 🚜 🌿
         </p>
 
-        <div class="flex items-center mt-4">
+        <div class="flex items-center mt-3">
           <img src="../assets/create.png" alt="Guarantee" class="w-12 h-12">
           <p class="ml-4 text-lg font-semibold text-green-700">Guaranteed Best Quality</p>
         </div>
 
         <!-- Call to Action Button -->
-        <button class="mt-12 bg-yellow-600 text-white px-4 py-3 rounded-md font-semibold shadow-md transition
+        <button class="mt-11 bg-yellow-600 text-white px-4 py-3 rounded-md font-semibold shadow-md transition
          inline-flex items-center gap-2 whitespace-nowrap">
 
-          <span>Discover More About How we Work</span>
+          <a href="http://"><span>Discover How We Work</span></a>
 
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor" class="w-4 h-4">
